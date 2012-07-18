@@ -1,0 +1,62 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #555;
+    font-family:'ÉqÉâÉMÉmäpÉS Pro W3','Hiragino Kaku Gothic Pro','ÉÅÉCÉäÉI',Meiryo,'ÇlÇr ÇoÉSÉVÉbÉN','MS PGothic',sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0px 40px;
+    min-height: 100%;;
+
+    width: 900px;
+    background-color: #ffffff;
+    font-size: 13px;
+}
+
+section {
+    margin: 10px;
+    padding: 10px;
+}
+
+a { color: #2a62bc;}
+
+span.desc {
+  display: block;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.tab-content {
+    margin: 0px;
+    padding: 0px;
+}
+
+#body-wraper {
+    padding: 0px;
+    margin: 0px;
+}
+
+#title {
+    margin: 0px;
+    padding: 23px;
+}
+
+#icon-group {
+    list-style: none;
+}
+
+#icon-group li {
+    float: left;
+    margin: 5px;
+}
+
+#blog_archive {
+    clear: left;
+}
+
+.app-url {
+    margin: 10px;
+}

@@ -1,0 +1,132 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 50px 30px;
+  width: 600px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+article {
+}
+
+section {
+  margin: 0;
+  padding: 30px 20px;
+  width: 260px;
+  text-align: right;
+}
+
+section#profile {
+  float: left;
+}
+
+section#profile,
+section#blog_archive {
+  float: left;
+  margin-right: -1px;
+  border-right: 1px solid #ddd;
+}
+
+section#repositories {
+  float: right;
+  border-left: 1px solid #ddd;
+  width: 259px;
+  text-align: left;
+  min-height: 20em;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 200%;
+}
+
+p.subtitle {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  margin: 1em -20px;
+  padding: 10px 20px;
+  font-size: 100%;
+}
+h2::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  width: 0;
+  height: 0;
+  border-right: 10px solid #ddd;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+#repositories h2::after {
+  left: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid #ddd;
+  border-bottom: 10px solid transparent;
+}
+
+ul {
+  list-style: none outside;
+  padding: 0;
+}
+
+ul li {
+  margin: 1em 0;
+  padding: 0;
+}
+
+footer {
+  display: block;
+  clear: both;
+  padding: 50px 0;
+}
+
+footer address {
+  font-style: normal;
+  text-align: center;
+  font-size: 9px;
+}
+
+a {
+  color: #0084B4;
+}
+
+#repositories ul {
+  list-style: disc inside;
+}
+
+span.desc,
+span.tweet {
+  display: block;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+span.desc {
+  font-size: 9px;
+  color: #333;
+}
+
+.lang-ruby {
+  color: #B92826;
+}
+.lang-javascript {
+  color: #6DB14C;
+}
+.lang-python {
+  color: #E37729;
+}

@@ -1,0 +1,15 @@
+span.desc,
+span.tweet {
+    display: block;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+span.desc {
+    font-size: 9px;
+    color: #333;
+}
+
+li {
+    margin: 5px;
+}
